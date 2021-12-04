@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-size: 18px;
+  font-size: 14px;
   background-color: #eee;
   color: #000;
   height: 10000px;
@@ -68,7 +68,7 @@ a {
 .header {
   align-items: flex-start;
   position: fixed;
-  display: flex;
+  display: block;
   width: 100vw;
   padding: 12px;
   top: 0;

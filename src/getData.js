@@ -1,5 +1,5 @@
 import dataRandom from './data/random.csv';
-import dataTravel from './data/travel.csv';
+// import dataTravel from './data/travel.csv';
 import dataNature from './data/nature.csv';
 import dataObjects from './data/objects.csv';
 
@@ -16,11 +16,11 @@ async function fetchMultiple() {
       dataCombined.push(...dataRaw.trim().split(`\n`).splice(1));
     });
 
-  await fetch(dataTravel)
-    .then((response) => response.text())
-    .then((dataRaw) => {
-      dataCombined.push(...dataRaw.trim().split(`\n`).splice(1));
-    });
+  // await fetch(dataTravel)
+  //   .then((response) => response.text())
+  //   .then((dataRaw) => {
+  //     dataCombined.push(...dataRaw.trim().split(`\n`).splice(1));
+  //   });
 
   await fetch(dataNature)
     .then((response) => response.text())

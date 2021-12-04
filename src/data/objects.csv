@@ -1,5 +1,5 @@
 EMOJI,SIZE (in cm),INFO
-💌,11.5,Love Letter
+💌,11.5,xatra
 💣,?,Bomb
 🛀,?,Person Taking Bath
 🛌,?,Person in Bed
@@ -56,15 +56,15 @@ EMOJI,SIZE (in cm),INFO
 🎛️,?,Control Knobs
 📻,?,Radio
 🪕,?,Banjo
-📱,15.5,Mobile Phone
+📱,15.5,fonskami
 ☎️,?,Telephone
 📞,?,Telephone Receiver
 📟,?,Pager
 📠,?,Fax Machine
 🔋,?,Battery
 🔌,?,Electric Plug
-💻,24,Laptop
-🖥️,51,iMac
+💻,24,
+🖥️,51,
 🖨️,?,Printer
 ⌨️,?,Keyboard
 🖱️,?,Computer Mouse
@@ -78,7 +78,7 @@ EMOJI,SIZE (in cm),INFO
 🎞️,?,Film Frames
 📽️,?,Film Projector
 📺,?,Television
-📷,11,Camera
+📷,11,kacma
 📸,?,Camera with Flash
 📹,?,Video Camera
 📼,?,Videocassette
@@ -110,10 +110,10 @@ EMOJI,SIZE (in cm),INFO
 🪙,?,Coin
 💴,?,Yen Banknote
 💵,?,Dollar Banknote
-💶,8.2,Euro Banknote
+💶,8.2,ronru'u jdini
 💷,?,Pound Banknote
 💸,?,Money with Wings
-💳,5.5,Credit Card
+💳,5.5,baxydinkarda
 🧾,?,Receipt
 ✉️,?,Envelope
 📨,?,Incoming Envelope
@@ -145,8 +145,8 @@ EMOJI,SIZE (in cm),INFO
 📋,?,Clipboard
 📌,?,Pushpin
 📍,?,Round Pushpin
-📎,2.8,Paperclip
-📏,30,Straight Ruler
+📎,2.8,pleterbakfu
+📏,30,
 📐,?,Triangular Ruler
 ✂️,?,Scissors
 🗃️,?,Card File Box
@@ -194,7 +194,7 @@ EMOJI,SIZE (in cm),INFO
 💊,?,Pill
 🩹,?,Adhesive Bandage
 🩺,?,Stethoscope
-🚪,205,Door
+🚪,205,vorme
 🪞,?,Mirror
 🪟,?,Window
 🛏️,?,Bed
@@ -223,4 +223,4 @@ EMOJI,SIZE (in cm),INFO
 ⚱️,?,Funeral Urn
 🪧,?,Placard
 🚰,?,Potable Water
-🍌,19,Banana
+🍌,19,badna

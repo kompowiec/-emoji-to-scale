@@ -3,17 +3,25 @@ import { getData } from './getData.js';
 
 const WIDTH = 300;
 
+function lojbanLength(number) {
+  return number.toString().replace(/\./g, ' pi ');
+}
+
 function parseSize(size) {
   if (size < 2) {
-    return `${size * 10}mm`;
+    return `miltre li ${lojbanLength(size * 10)}<br/> (${size * 10} mm)`;
   }
   if (size < 100) {
-    return `${size}cm`;
+    return `centre li ${lojbanLength(size)}<br/> (${size}cm)`;
   }
   if (size < 100 * 1000) {
-    return `${Math.round(size * 100) / 100 / 100}m`;
+    return `mitre li ${lojbanLength(Math.round(size * 100) / 100 / 100)}<br/> (${
+      Math.round(size * 100) / 100 / 100
+    }m)`;
   }
-  return `${Math.round(size / 100 / 10) / 100}km`;
+  return `ki'otre li ${lojbanLength(Math.round(size / 100 / 10) / 100)}<br/> (${
+    Math.round(size / 100 / 10) / 100
+  }km)`;
 }
 
 function App() {
@@ -35,6 +43,18 @@ function App() {
     }
     window.requestAnimationFrame(loop);
   }, []);
+
+  function emojiUnicode(emoji) {
+    var comp;
+    if (emoji.length === 1) {
+      comp = emoji.charCodeAt(0);
+    }
+    comp = (emoji.charCodeAt(0) - 0xd800) * 0x400 + (emoji.charCodeAt(1) - 0xdc00) + 0x10000;
+    if (comp < 0) {
+      comp = emoji.charCodeAt(0);
+    }
+    return comp.toString('16');
+  }
 
   return (
     <div className="emoji-display">
@@ -91,10 +111,19 @@ function App() {
                 transform: `scale(${calculatedScale}) translateY(10%)`
               }}
             >
-              {emoji}
+              <img
+                src={`https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u${emojiUnicode(
+                  emoji
+                )}.svg`}
+              />
             </div>
-            <div>{parseSize(size)}</div>
-            <div>{label}</div>
+            <div style={{ marginTop: '2rem', maxWidth: '15rem' }}>
+              <b>{label}</b>
+              <div
+                dangerouslySetInnerHTML={{ __html: parseSize(size) }}
+                style={{ marginTop: '.5rem' }}
+              ></div>
+            </div>
           </div>
         );
       })}
