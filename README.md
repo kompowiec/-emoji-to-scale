@@ -1,4 +1,4 @@
-# [Emoji to Scale](http://javier.xyz/emoji-to-scale/)
+# A fork of [Emoji to Scale](http://javier.xyz/emoji-to-scale/) for the Lojban spoken logical language
 
 Your favorite emojis. To scale (more or less). Inspired by [this joke](https://twitter.com/MarcBeddy/status/290598911851245568).
 
@@ -6,7 +6,7 @@ Your favorite emojis. To scale (more or less). Inspired by [this joke](https://t
 
 ## How can I add more emojis or fix an emoji size?
 
-The data source is a `.csv` file located at [https://github.com/javierbyte/emoji-to-scale/blob/master/src/emoji-data.csv](https://github.com/javierbyte/emoji-to-scale/blob/master/src/data), feel free to send a Pull Request!
+The data source is a `.csv` file located at [https://github.com/La-Lojban/-emoji-to-scale/blob/master/src/data](https://github.com/La-Lojban/-emoji-to-scale/blob/master/src/data), feel free to send a Pull Request!
 
 ## Running the project locally
 
