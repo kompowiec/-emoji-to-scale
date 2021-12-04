@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/emoji-to-scale/static/css/main.63bc82b0.chunk.css",
+    "main.js": "/emoji-to-scale/static/js/main.50f97be4.chunk.js",
+    "main.js.map": "/emoji-to-scale/static/js/main.50f97be4.chunk.js.map",
+    "runtime-main.js": "/emoji-to-scale/static/js/runtime-main.639f13dd.js",
+    "runtime-main.js.map": "/emoji-to-scale/static/js/runtime-main.639f13dd.js.map",
+    "static/js/2.8eeb3cc6.chunk.js": "/emoji-to-scale/static/js/2.8eeb3cc6.chunk.js",
+    "static/js/2.8eeb3cc6.chunk.js.map": "/emoji-to-scale/static/js/2.8eeb3cc6.chunk.js.map",
+    "index.html": "/emoji-to-scale/index.html",
+    "static/css/main.63bc82b0.chunk.css.map": "/emoji-to-scale/static/css/main.63bc82b0.chunk.css.map",
+    "static/js/2.8eeb3cc6.chunk.js.LICENSE.txt": "/emoji-to-scale/static/js/2.8eeb3cc6.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/emoji-to-scale/static/media/bg.85658877.svg",
+    "static/media/nature.b53118cb.csv": "/emoji-to-scale/static/media/nature.b53118cb.csv",
+    "static/media/objects.48965679.csv": "/emoji-to-scale/static/media/objects.48965679.csv",
+    "static/media/random.833014d3.csv": "/emoji-to-scale/static/media/random.833014d3.csv"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.639f13dd.js",
+    "static/js/2.8eeb3cc6.chunk.js",
+    "static/css/main.63bc82b0.chunk.css",
+    "static/js/main.50f97be4.chunk.js"
+  ]
+}
