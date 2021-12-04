@@ -6,7 +6,7 @@ Your favorite emojis. To scale (more or less). Inspired by [this joke](https://t
 
 ## How can I add more emojis or fix an emoji size?
 
-The data source is a `.csv` file located at [https://github.com/La-Lojban/-emoji-to-scale/blob/master/src/data](https://github.com/La-Lojban/-emoji-to-scale/blob/master/src/data), feel free to send a Pull Request!
+The data source is a `.csv` file located at [https://github.com/La-Lojban/-emoji-to-scale/tree/master/src/data](https://github.com/La-Lojban/-emoji-to-scale/blob/master/src/data), feel free to send a Pull Request!
 
 ## Running the project locally
 
